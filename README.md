@@ -9,19 +9,19 @@ Procedure: you need to pass starting of poem and number of characters.
 
 Class Hierachy
 
-		|-------------------------|             |------------|
-                |     Peom dataset        |-trained-on->|   LSTM     |
-                |-------------------------|             |------------|
-                                                               ^
-                                                               |
-                                                               |
-                                                               |
-                                                           Prediction
-                                                               |  
-                                                               |
-                                                               |
-                                                               |
-                                                         |------------|
-                                                         | text,count |
-                                                         |------------|
+|-------------------------|             |------------|
+|     Peom dataset        |-trained-on->|   LSTM     |
+|-------------------------|             |------------|
+					       ^
+					       |
+					       |
+					       |
+					   Prediction
+					       |  
+					       |
+					       |
+					       |
+					 |------------|
+					 | text,count |
+					 |------------|
    
